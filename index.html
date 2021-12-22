@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Система предотвращения столкновения автомобиля</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="main_window">
+		<h1>Система предотвращения столкновения автомобиля</h1>
+		<div class="picture">
+			<div class="picture_img">
+				<img src="barrier.png">
+			</div>
+			<div class="picture_rasst">
+				<h3>← <snap id="picture_rasst">Расстояние более 300 </snap>м.</h3>
+			</div>
+			<div class="picture_car">
+				<img src="car.png">
+			</div>
+		</div>
+		<div class="data">
+			<div class="data-speed">
+				Скорость: <snap id="speed">0</snap> м/с.
+			</div>
+			<div class="data-rasst1">
+				Расстояние 1: <snap id="rasst_1">300</snap> м.
+			</div>
+			<div class="data-rasst1">
+				Расстояние 2: <snap id="rasst_2">300</snap> м.
+			</div>
+			<div class="data-sblizh">
+				Сближение: <snap id="sblizh">0</snap> м.
+			</div>
+			<div class="data-state">
+				Состояние: <snap id="state">Нормальное</snap>.
+			</div>
+			<div class="data-uskor">
+				Ускорение: <snap id="uskor">Нормальное</snap> м/с.
+			</div>
+		</div>
+		<div class="buttons">
+			<div id="start_button" class="button">
+				Старт
+			</div>
+			<div id="breaks_button" class="button">
+				Торможение
+			</div>
+			<div id="stop_button" class="button">
+				Стоп
+			</div>
+			<div id="default_button" class="button">
+				Обнулить значения
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

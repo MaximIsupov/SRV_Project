@@ -1,0 +1,54 @@
+.main_window{
+	margin:0 auto;
+	max-width: 80%;
+	text-align: center;
+}
+.picture{
+	margin-top:50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.picture div{
+	padding:10px;
+}
+.picture img{
+	width:250px;
+	height:200px;
+}
+.picture_rasst{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.button{
+	background:grey;
+	border:2px black solid;
+	border-radius: 15px;
+	padding:10px;
+	color:white;
+	font-weight: bold;
+	width:200px;
+	margin: auto;
+    margin-top:20px;
+}
+.data{
+	font-size:25px;
+}
+#picture_rasst{
+	font-size:48px;
+}
+
+.anim{
+	animation: animat 3s;
+	animation-direction: reverse;
+}
+}
+
+@keyframe animat{
+from{
+top: 40px;
+}
+to{
+top: 70px;
+}
