@@ -43,6 +43,23 @@
 	animation: animat 3s;
 	animation-direction: reverse;
 }
+
+.buttons{
+	margin-top:100px;
+}
+
+@media screen and (max-width: 980px) {
+    .button{
+    	width: 100%;
+    	font-size: 45px;
+    	height: 50px;
+    }
+    #picture_rasst{
+    	font-size:72px;
+    }
+    .data {
+    	font-size: 35px;
+	}
 }
 
 @keyframe animat{

@@ -11,7 +11,7 @@ speed = 0;
 prev_rasstoyanie = 300;
 current_rasstoyanie = 300;
 sblizh = 0;
-uskor = 0.04;
+uskor = 0.06;
 states ={
 	"normal": "Нормальное состояние",
 	"warning": "Предупреждение",
@@ -26,7 +26,7 @@ breaks_button.onclick = avar_breaks;
 stop_button = document.getElementById("stop_button");
 stop_button.onclick = stop;
 default_button = document.getElementById("default_button");
-default_button.onclick = set_to_default();
+default_button.onclick = set_to_default;
 let timerId;
 
 
